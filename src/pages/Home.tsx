@@ -9,22 +9,23 @@ const Home = () => {
   return (
     <div className="relative min-h-screen flex items-center">
       <div className="absolute left-8 bottom-32 z-10 opacity-80">
-        {/* 装飾ライン */}
-        <div className="w-20 h-px bg-gradient-to-r from-blue-400 to-purple-400 opacity-70 mb-4"></div>
+        {/* Hello */}
         <h1 className="font-['Saint_Delafield'] text-6xl tracking-wide mb-2 text-white/90 leading-none">
           Hello,
         </h1>
         <div className="relative">
           {/* 名前をより際立たせるために装飾とスタイルを改善 */}
-          <p className="text-4xl font-bold tracking-wider text-white/80 mb-6 letter-spacing-2">
+          <p className="text-4xl font-bold tracking-wider text-white/80 mb-2 letter-spacing-2">
             I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">Kai Etori</span>
           </p>
+          
+          {/* 装飾ラインを名前の下に移動し長さを調整 */}
+          <div className="w-48 h-px bg-gradient-to-r from-blue-400 to-purple-400 opacity-70 mb-6"></div>
           
           {/* 経歴部分を整える */}
           <div className="relative pl-5 border-l-2 border-purple-500/30">
             <p className="text-sm font-light leading-relaxed text-white/60 max-w-md tracking-wide">
-              クリエイティブディレクター。エンターテインメント領域を中心に、
-              <br />デジタルプロダクトの企画からディレクションまでを手がけています。
+              エンターテインメント領域を軸に、デジタルプロダクトの企画・設計から、ビジュアルや体験設計を含むクリエイティブディレクションまで、プロジェクト全体を横断的に手がけています。多様なチームと連携しながら、コンセプト設計からアウトプットまで一責して伴走することを強みとしています。
             </p>
           </div>
           
@@ -32,7 +33,7 @@ const Home = () => {
             <img 
               src="/sneaker-art.png" 
               alt="Artistic Sneaker Design"
-              className="w-64 h-auto opacity-80"
+              className="w-[294px] h-auto opacity-80"
             />
           </div>
         </div>
