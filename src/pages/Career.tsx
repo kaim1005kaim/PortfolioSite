@@ -28,7 +28,7 @@ const Career = () => {
 
   return (
     <div className="min-h-screen p-12">
-      <h1 className="text-2xl font-light tracking-wider mb-12 text-blue-400">CAREER</h1>
+      <h1 className="text-2xl font-light tracking-wider mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300">CAREER</h1>
       <div className="space-y-16">
         {careers.map((career, index) => (
           <div key={index} className="max-w-2xl">

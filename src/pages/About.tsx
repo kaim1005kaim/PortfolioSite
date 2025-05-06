@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="min-h-screen p-12 flex items-center">
       <div className="max-w-2xl">
-        <h1 className="text-2xl font-light tracking-wider mb-8 text-blue-400">ABOUT</h1>
+        <h1 className="text-2xl font-light tracking-wider mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300">ABOUT</h1>
         <div className="space-y-6 text-white/70">
           <p>
             映像プロダクションでエディターとして経験を積んだ後、VRコンテンツの制作に携わり、

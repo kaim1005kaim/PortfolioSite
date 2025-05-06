@@ -21,11 +21,11 @@ const Home = () => {
               <div className="flex mb-1 pl-[0.4em]">
                 <span className="text-xs text-gray-400 mr-[1.2em]">エ</span>
                 <span className="text-xs text-gray-400 mr-[0.8em]">トリ</span>
-                <span className="text-xs text-gray-400 -ml-[0.5em]">カイ</span>
+                <span className="text-xs text-gray-400 -ml-[0.2em]">カイ</span>
               </div>
-              {/* 漢字部分 */}
+              {/* 漢字部分 - マウスオーバー時の効果を追加 */}
               <div>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">餌取凱です。</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300 cursor-pointer transition-all duration-300 hover:from-purple-600 hover:to-amber-400 hover:drop-shadow-lg">餌取凱です。</span>
               </div>
             </div>
           </div>

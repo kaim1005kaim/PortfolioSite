@@ -1,7 +1,7 @@
 const Information = () => {
   return (
     <div className="min-h-screen p-12">
-      <h1 className="text-2xl font-light tracking-wider mb-12 text-blue-400">INFORMATION</h1>
+      <h1 className="text-2xl font-light tracking-wider mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300">INFORMATION</h1>
       <div className="max-w-2xl space-y-8">
         <div>
           <h2 className="text-lg mb-4">Contact</h2>

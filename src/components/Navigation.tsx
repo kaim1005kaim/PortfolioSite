@@ -19,8 +19,8 @@ const Navigation = () => {
           to={path}
           className={`text-sm tracking-wider transition-colors ${
             location.pathname === path
-              ? 'text-blue-400'
-              : 'text-white/70 hover:text-white'
+              ? 'text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300'
+              : 'text-white/70 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-500 hover:to-amber-300'
           }`}
         >
           {label}

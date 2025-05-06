@@ -40,7 +40,7 @@ const Works = () => {
 
   return (
     <div className="min-h-screen p-12">
-      <h1 className="text-2xl font-light tracking-wider mb-12 text-blue-400">WORKS</h1>
+      <h1 className="text-2xl font-light tracking-wider mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300">WORKS</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {works.map((work, index) => (
           <div 
@@ -55,8 +55,8 @@ const Works = () => {
               />
             </div>
             <div className="p-6">
-              <div className="text-sm text-blue-400 mb-2">{work.category}</div>
-              <h2 className="text-xl mb-2 group-hover:text-blue-400 transition-colors">{work.title}</h2>
+              <div className="text-sm text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300 mb-2">{work.category}</div>
+              <h2 className="text-xl mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-500 group-hover:to-amber-300 transition-colors">{work.title}</h2>
               <p className="text-white/50 text-sm">{work.description}</p>
             </div>
           </div>
