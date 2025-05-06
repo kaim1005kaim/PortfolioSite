@@ -15,18 +15,31 @@ const Home = () => {
         </h1>
         <div className="relative">
           {/* 名前の上にルビを追加し、文字間隔を調整 */}
-          <div className="mb-1 text-center text-xs text-gray-400 tracking-widest">
-            エトリカイ
+          <div className="relative mb-8">
+            <p className="text-4xl font-bold tracking-[0.2em] text-white/80 relative">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">
+                <span className="relative inline-block">
+                  <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-xs text-gray-400">エ</span>
+                  餌
+                </span>
+                <span className="relative inline-block">
+                  <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-xs text-gray-400">トリ</span>
+                  取
+                </span>
+                <span className="relative inline-block">
+                  <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-xs text-gray-400">カイ</span>
+                  凱
+                </span>
+                <span>です。</span>
+              </span>
+            </p>
           </div>
-          <p className="text-4xl font-bold tracking-[0.2em] text-white/80 mb-6">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">餅取凱です。</span>
-          </p>
           
           {/* 経歴部分を整える - グラデーションラインを削除し、テキスト位置を調整 */}
           <div className="relative mb-8">
             {/* 経歴テキスト */}
             <p className="text-sm font-light leading-relaxed text-white/60 max-w-md tracking-wide">
-              エンターテインメント領域を軸に、デジタルプロダクトの企画・設計から、ビジュアルや体験設計を含むクリエイティブディレクションまで、プロジェクト全体を横断的に手がけています。多様なチームと連携しながら、コンセプト設計からアウトプットまで一責して伴走することを強みとしています。
+              エンターテインメント領域を軸に、デジタルプロダクトの企画・設計から、ビジュアルや体験設計を含むクリエイティブディレクションまで、プロジェクト全体を横断的に手がけています。多様なチームと連携しながら、コンセプト設計からアウトプットまで一貫して伴走することを強みとしています。
             </p>
           </div>
           
