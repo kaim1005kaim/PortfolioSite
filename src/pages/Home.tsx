@@ -9,18 +9,26 @@ const Home = () => {
   return (
     <div className="relative min-h-screen flex items-center">
       <div className="absolute left-8 bottom-32 z-10 opacity-80">
-        <h1 className="text-5xl font-extralight tracking-wider mb-4 text-white/80">
+        {/* 装飾ライン */}
+        <div className="w-20 h-px bg-gradient-to-r from-blue-400 to-purple-400 opacity-70 mb-4"></div>
+        <h1 className="font-['Saint_Delafield'] text-6xl tracking-wide mb-2 text-white/90 leading-none">
           Hello,
         </h1>
-        <div className="space-y-4">
-          <p className="text-3xl font-extralight tracking-wide text-white/60">
-            I'm Kai Etori
+        <div className="relative">
+          {/* 名前をより際立たせるために装飾とスタイルを改善 */}
+          <p className="text-4xl font-bold tracking-wider text-white/80 mb-6 letter-spacing-2">
+            I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">Kai Etori</span>
           </p>
-          <p className="text-sm font-light leading-relaxed text-white/50 max-w-md">
-            クリエイティブディレクター。エンターテインメント領域を中心に、
-            デジタルプロダクトの企画からディレクションまでを手がけています。
-          </p>
-          <div className="mt-8">
+          
+          {/* 経歴部分を整える */}
+          <div className="relative pl-5 border-l-2 border-purple-500/30">
+            <p className="text-sm font-light leading-relaxed text-white/60 max-w-md tracking-wide">
+              クリエイティブディレクター。エンターテインメント領域を中心に、
+              <br />デジタルプロダクトの企画からディレクションまでを手がけています。
+            </p>
+          </div>
+          
+          <div className="mt-10">
             <img 
               src="/sneaker-art.png" 
               alt="Artistic Sneaker Design"
