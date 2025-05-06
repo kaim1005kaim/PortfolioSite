@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div className="relative min-h-screen flex items-center">
-      <div className="absolute left-8 bottom-32 z-10 opacity-80">
+      <div className="absolute left-8 bottom-24 z-10 opacity-80">
         {/* 挨拶 */}
         <h1 className="font-['Saint_Delafield'] text-6xl tracking-wide mb-2 text-white/90 leading-none">
           どうも！
@@ -31,19 +31,10 @@ const Home = () => {
           </div>
           
           {/* 経歴部分 */}
-          <div className="relative mb-8">
+          <div className="relative">
             <p className="text-sm font-light leading-relaxed text-white/60 max-w-md tracking-wide">
               エンターテインメント領域を軸に、デジタルプロダクトの企画・設計から、ビジュアルや体験設計を含むクリエイティブディレクションまで、プロジェクト全体を横断的に手がけています。多様なチームと連携しながら、コンセプト設計からアウトプットまで一貫して伴走することを強みとしています。
             </p>
-          </div>
-          
-          {/* スニーカー画像 */}
-          <div className="flex justify-center pr-10">
-            <img 
-              src="/sneaker-art.png" 
-              alt="Artistic Sneaker Design"
-              className="w-[294px] h-auto opacity-80"
-            />
           </div>
         </div>
       </div>
