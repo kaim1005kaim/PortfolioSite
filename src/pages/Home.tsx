@@ -17,11 +17,11 @@ const Home = () => {
           {/* 名前部分 */}
           <div className="relative mb-8">
             <div className="text-4xl font-bold tracking-[0.2em] text-white/80">
-              {/* ルビを横表記に修正して位置調整 - カイだけ左に移動 */}
+              {/* ルビを横表記に修正して位置調整 - カイの位置をさらに左に調整 */}
               <div className="flex mb-1 pl-[0.4em]">
                 <span className="text-xs text-gray-400 mr-[1.2em]">エ</span>
                 <span className="text-xs text-gray-400 mr-[0.8em]">トリ</span>
-                <span className="text-xs text-gray-400 -ml-[0.1em]">カイ</span>
+                <span className="text-xs text-gray-400 -ml-[0.2em]">カイ</span>
               </div>
               {/* 漢字部分 */}
               <div>
