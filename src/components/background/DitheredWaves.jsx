@@ -270,7 +270,7 @@ export default function DitheredWavesBackground({
   className = ""
 }) {
   return (
-    <div className={`absolute inset-0 z-0 ${className}`}>
+    <div className={`absolute inset-0 z-0 pointer-events-none ${className}`}>
       <Canvas
         camera={{ position: [0, 0, 6] }}
         dpr={window.devicePixelRatio}

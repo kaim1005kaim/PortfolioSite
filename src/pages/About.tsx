@@ -6,16 +6,18 @@ const About = () => {
     <div className="min-h-screen relative">
       {/* 背景アニメーション */}
       <Suspense fallback={<div className="absolute inset-0 bg-black"></div>}>
-        <DitheredWavesBackground 
-          waveSpeed={0.03}
-          waveFrequency={2}
-          waveAmplitude={0.2}
-          waveColor={[0.3, 0.2, 0.5]} // 紺から黄色に近い色調
-          colorNum={4}
-          pixelSize={3}
-          enableMouseInteraction={true}
-          mouseRadius={0.8}
-        />
+        {typeof window !== 'undefined' && (
+          <DitheredWavesBackground 
+            waveSpeed={0.03}
+            waveFrequency={2}
+            waveAmplitude={0.2}
+            waveColor={[0.3, 0.2, 0.5]} // 紺から黄色に近い色調
+            colorNum={4}
+            pixelSize={3}
+            enableMouseInteraction={true}
+            mouseRadius={0.8}
+          />
+        )}
       </Suspense>
       
       {/* コンテンツ部分 - 左端に配置 */}
