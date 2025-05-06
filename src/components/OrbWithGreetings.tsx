@@ -300,7 +300,7 @@ export default function OrbWithGreetings({
       setTimeout(() => {
         setIndex((prev) => (prev + 1) % greetings.length);
         setFade(true); // フェードイン
-      }, 300); // フェードアウト後に切り替え
+      }, 500); // フェードアウト後に切り替え
     }, interval);
     
     return () => clearInterval(timer);
@@ -312,7 +312,7 @@ export default function OrbWithGreetings({
       {/* グリーティング表示 */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <h1
-          className={`text-white text-3xl md:text-5xl font-bold text-center drop-shadow-md transition-opacity duration-500 ${
+          className={`text-white text-3xl md:text-5xl font-bold text-center drop-shadow-md transition-opacity duration-700 ${
             fade ? "opacity-100" : "opacity-0"
           }`}
         >

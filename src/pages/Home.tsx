@@ -30,8 +30,8 @@ const Home = () => {
         </div>
       </div>
       
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px]">
-        <OrbWithGreetings hue={240} hoverIntensity={0.3} rotateOnHover={true} interval={2000} />
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[440px] h-[440px]">
+        <OrbWithGreetings hue={240} hoverIntensity={0.3} rotateOnHover={true} interval={3500} />
       </div>
     </div>
   );
