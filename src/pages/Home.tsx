@@ -20,7 +20,7 @@ const Home = () => {
           </p>
           
           {/* 装飾ラインを名前の下に移動し長さを調整 */}
-          <div className="w-48 h-px bg-gradient-to-r from-blue-400 to-purple-400 opacity-70 mb-6"></div>
+          <div className="w-64 h-px bg-gradient-to-r from-blue-400 to-purple-400 opacity-70 mb-6"></div>
           
           {/* 経歴部分を整える */}
           <div className="relative pl-5 border-l-2 border-purple-500/30">
