@@ -24,7 +24,7 @@ const Home = () => {
             <img 
               src="/sneaker-art.png" 
               alt="Artistic Sneaker Design"
-              className="w-64 h-auto opacity-80 invert"
+              className="w-64 h-auto opacity-80"
             />
           </div>
         </div>
