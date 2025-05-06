@@ -17,8 +17,8 @@ const Home = () => {
           {/* 名前部分 */}
           <div className="relative mb-8">
             <div className="text-4xl font-bold tracking-[0.2em] text-white/80">
-              {/* ルビを横表記に修正 */}
-              <div className="flex mb-1">
+              {/* ルビを横表記に修正して半角スペース分右にずらす */}
+              <div className="flex mb-1 pl-[0.5em]">
                 <span className="text-xs text-gray-400 mr-[1.2em]">エ</span>
                 <span className="text-xs text-gray-400 mr-[0.8em]">トリ</span>
                 <span className="text-xs text-gray-400">カイ</span>
