@@ -1,7 +1,8 @@
 const About = () => {
   return (
-    <div className="min-h-screen p-12 flex items-center">
-      <div className="max-w-2xl">
+    <div className="min-h-screen p-12 flex items-center justify-between">
+      {/* テキストコンテンツ部分 - 左側に配置 */}
+      <div className="max-w-xl">
         <h1 className="text-2xl font-light tracking-wider mb-8 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-amber-300">ABOUT</h1>
         <div className="space-y-6 text-white/70">
           <p>
@@ -16,6 +17,15 @@ const About = () => {
             創造に取り組んでいます。
           </p>
         </div>
+      </div>
+      
+      {/* 画像部分 - 右側に大きく配置 */}
+      <div className="hidden md:block">
+        <img 
+          src="/etoka.png" 
+          alt="Etori Kai Profile"
+          className="w-[400px] h-auto max-h-[80vh] object-contain opacity-80 animate-pulse-slow"
+        />
       </div>
     </div>
   );

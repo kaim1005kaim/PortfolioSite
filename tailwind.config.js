@@ -22,6 +22,13 @@ export default {
       animation: {
         'fade-in': 'fadeIn 0.8s ease-out forwards',
         'scale-in': 'scaleIn 0.3s ease-out forwards',
+        'pulse-slow': 'pulse-slow 4s infinite ease-in-out',
+      },
+      keyframes: {
+        'pulse-slow': {
+          '0%, 100%': { opacity: 0.8 },
+          '50%': { opacity: 0.6 },
+        },
       },
       transitionProperty: {
         'height': 'height',
