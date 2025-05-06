@@ -17,19 +17,16 @@ const Home = () => {
           {/* 名前部分 */}
           <div className="relative mb-8">
             <div className="text-4xl font-bold tracking-[0.2em] text-white/80">
-              <div className="relative inline-block">
-                <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-xs text-gray-400">エ</span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">餌</span>
+              {/* ルビを横表記に修正 */}
+              <div className="flex mb-1">
+                <span className="text-xs text-gray-400 mr-[1.2em]">エ</span>
+                <span className="text-xs text-gray-400 mr-[0.8em]">トリ</span>
+                <span className="text-xs text-gray-400">カイ</span>
               </div>
-              <div className="relative inline-block">
-                <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-xs text-gray-400">トリ</span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">取</span>
+              {/* 漢字部分 */}
+              <div>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">餌取凱です。</span>
               </div>
-              <div className="relative inline-block">
-                <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-xs text-gray-400">カイ</span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">凱</span>
-              </div>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">です。</span>
             </div>
           </div>
           
