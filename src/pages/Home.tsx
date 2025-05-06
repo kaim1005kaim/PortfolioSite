@@ -21,7 +21,7 @@ const Home = () => {
               <div className="flex mb-1 pl-[0.4em]">
                 <span className="text-xs text-gray-400 mr-[1.2em]">エ</span>
                 <span className="text-xs text-gray-400 mr-[0.8em]">トリ</span>
-                <span className="text-xs text-gray-400 -ml-[0.2em]">カイ</span>
+                <span className="text-xs text-gray-400 -ml-[0.4em]">カイ</span>
               </div>
               {/* 漢字部分 */}
               <div>
