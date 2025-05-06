@@ -14,8 +14,11 @@ const Home = () => {
           どうも！
         </h1>
         <div className="relative">
-          {/* 名前をより際立たせるために装飾とスタイルを改善 */}
-          <p className="text-4xl font-bold tracking-wider text-white/80 mb-6 letter-spacing-2">
+          {/* 名前の上にルビを追加し、文字間隔を調整 */}
+          <div className="mb-1 text-center text-xs text-gray-400 tracking-widest">
+            エトリカイ
+          </div>
+          <p className="text-4xl font-bold tracking-[0.2em] text-white/80 mb-6">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-300">餅取凱です。</span>
           </p>
           
@@ -27,8 +30,8 @@ const Home = () => {
             </p>
           </div>
           
-          {/* スニーカー画像を右寄せに配置 */}
-          <div className="flex justify-end">
+          {/* スニーカー画像を右寄せから中央よりに配置 */}
+          <div className="flex justify-center pr-10">
             <img 
               src="/sneaker-art.png" 
               alt="Artistic Sneaker Design"
